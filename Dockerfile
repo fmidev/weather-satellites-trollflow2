@@ -18,7 +18,7 @@ RUN mkdir /opt/conda && \
     micromamba install -c conda-forge --no-deps dask && \
     micromamba install -y -f /tmp/environment.yaml && \
     rm /tmp/environment.yaml && \
-    pip install --no-dependencies trollmoves && \
+    pip install --no-dependencies trollmoves==0.13.1 && \
     pip cache purge && \
     # Remove git with all its dependencies
     micromamba remove -y git && \
