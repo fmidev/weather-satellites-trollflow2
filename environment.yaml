@@ -1,0 +1,42 @@
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - zeromq
+  - pyzmq
+  - pyyaml
+  - trollsift
+  - configobj
+  - netifaces
+  - satpy>=0.45.0
+  - pyresample
+  - pykdtree
+  - trollimage>=1.22.2
+  - rasterio
+  - pyorbital
+  - gdal
+  - h5py
+  - h5netcdf
+  - hdf5plugin
+  - netcdf4
+  - paramiko
+  - scp
+  - s3fs
+  - fsspec
+  - dpath
+  - toolz
+  - configobj
+  - shapely
+  - donfig
+  - pip
+  - scipy
+  - fasteners
+  - numcodecs
+  - numpy
+  - asciitree
+  - pyspectral>=0.13.0
+  - git
+  - pip:
+    - posttroll
+    # - trollflow2
+    - git+https://github.com/pytroll/trollflow2.git
