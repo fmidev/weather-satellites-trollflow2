@@ -4,13 +4,19 @@ This recipe is automatically built on new version tags, and the image
 is available from
 https://quay.io/repository/fmi/weather-satellites-trollflow2
 
+Trollflow2 is a Pytroll library for satellite data processing. This
+recipe can be used to build a container image for use in OpenShift,
+Kubernetes, Docker, Podman etc.
+
 ## Configuration
 
-In the simplest case only composites built-in to Satpy are used. Then all configuration files are places within `/config/` directory.
+In the simplest case only composites built-in to Satpy are used. Then
+all configuration files are places within `/config/` directory.
 
 ### `/config/env-variables`
 
-The entrypoint will start by setting environment variables placed in `/config/env-variables` file. There are two strictly required items:
+The entrypoint will start by setting environment variables placed in
+`/config/env-variables` file. There are two strictly required items:
 
 ```bash
 # Set the Satpy configuration directory paths
