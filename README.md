@@ -49,8 +49,5 @@ export SATPY_CONFIG_PATH="/config/:/"
 ```
 
 For Docker or Podman, the easiest way is to put all the configs in one
-directory structure, mount it to `/config/` and use the simpler for:
-
-```bash
-export SATPY_CONFIG_PATH=/config/
-```
+directory structure and use the more simple `SATPY_CONFIG_PATH` from
+above.
