@@ -1,6 +1,7 @@
 channels:
   - conda-forge
 dependencies:
+  - aiohttp>=3.9.3
   - asciitree
   - configobj
   - donfig=0.8.1.post0
