@@ -31,7 +31,7 @@ dependencies:
   - pyzmq
   - rasterio
   - s3fs
-  - satpy=0.47.0
+  - satpy=0.48.0
   - scipy
   - scp
   - shapely
