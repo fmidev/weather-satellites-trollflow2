@@ -22,8 +22,17 @@ The entrypoint will start by setting environment variables placed in
 # Set the Satpy configuration directory paths
 export SATPY_CONFIG_PATH="/config/"
 # Set the source of the incoming messages
-export MESSAGE_SOURCE=tcp://<dns-name-of-publisher>:<port-number>
+export MESSAGE_SOURCE="tcp://<dns-name-of-publisher>:<port-number>"
 ```
+
+If there are multiple message sources, they can be defined like this:
+
+```bash
+export MESSAGE_SOURCE="tcp://source1:40000 tcp://source2:40001 tcp://source3:40003"
+```
+
+This are then combined and passed to `satpy_launcher.py` with the `-a`
+argument.
 
 ### Trollflow2 configuration
 
