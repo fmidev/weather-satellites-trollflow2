@@ -31,6 +31,9 @@ RUN mkdir /opt/conda && \
 
 FROM registry.access.redhat.com/ubi9/ubi-minimal
 
+RUN microdnf -y update && \
+    microdnf -y clean all
+
 COPY --from=builder /opt/conda /opt/conda
 COPY --from=builder /usr/bin/micromamba /usr/bin/
 COPY entrypoint.sh /usr/bin/
