@@ -38,6 +38,7 @@ dependencies:
   - pyzmq
   - rasterio
   - requests>=2.32.0
+  - rioxarray
   - s3fs
   # - satpy=0.50.0
   - scipy
