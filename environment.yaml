@@ -20,7 +20,7 @@ dependencies:
   - netcdf4
   - netifaces
   - numcodecs
-  - numpy<2.0.0
+  - numpy
   - paramiko
   - partd
   - pip
