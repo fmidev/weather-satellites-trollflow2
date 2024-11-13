@@ -6,6 +6,8 @@ dependencies:
   - cloudpickle
   - configobj
   - dask
+  - dask-expr
+  - dask-image
   - donfig=0.8.1.post1
   - defusedxml
   - dpath
