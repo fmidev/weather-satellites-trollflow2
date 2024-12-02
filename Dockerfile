@@ -38,7 +38,6 @@ COPY --from=builder /opt/conda /opt/conda
 COPY --from=builder /usr/bin/micromamba /usr/bin/
 COPY entrypoint.sh /usr/bin/
 
-USER 1001
 EXPOSE 40000
 
 ENTRYPOINT ["/usr/bin/entrypoint.sh"]
