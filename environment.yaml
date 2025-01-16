@@ -18,6 +18,7 @@ dependencies:
   - h5netcdf
   - h5py
   - hdf5plugin
+  - jinja2>=3.1.5
   - locket
   - netcdf4
   - netifaces
