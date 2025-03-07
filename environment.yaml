@@ -3,6 +3,7 @@ channels:
 dependencies:
   - aiohttp>=3.9.3
   - asciitree
+  - botocore<1.36
   - cloudpickle
   - configobj
   - dask
