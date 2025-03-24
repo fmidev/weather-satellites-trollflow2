@@ -52,5 +52,5 @@ dependencies:
   - shapely
   - toolz
   - trollimage=1.26.0
-  - trollsift=0.5.1
+  - trollsift=0.5.3
   - zeromq
