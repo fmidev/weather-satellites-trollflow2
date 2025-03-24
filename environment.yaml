@@ -36,7 +36,7 @@ dependencies:
     - trollflow2==0.16.0
   - psycopg
   - pykdtree=1.4.1
-  - pyorbital=1.8.3
+  - pyorbital=1.9.2
   - pyresample=1.33.0
   - pyspectral=0.13.5
   - python=3.12
