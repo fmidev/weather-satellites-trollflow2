@@ -6,6 +6,7 @@ dependencies:
   - botocore<1.36
   - cloudpickle
   - configobj
+  - cryptography>=44.0.1
   - dask
   - dask-expr
   - dask-image
