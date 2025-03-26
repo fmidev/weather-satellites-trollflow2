@@ -45,7 +45,7 @@ dependencies:
   - rasterio
   - requests>=2.32.0
   - rioxarray
-  - s3fs
+  - s3fs=>2025.3.0
   - satpy=0.55.0
   - scipy
   - scp
