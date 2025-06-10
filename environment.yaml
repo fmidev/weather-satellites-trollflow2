@@ -3,7 +3,7 @@ channels:
 dependencies:
   - aiohttp>=3.9.3
   - asciitree
-  - botocore<1.36
+  - botocore
   - cloudpickle
   - configobj
   - cryptography>=44.0.1
@@ -30,14 +30,14 @@ dependencies:
   - partd
   - pip
   - pip:
-    - git+https://github.com/fmidev/fmi_trollflow2_plugins.git
+    - git+https://github.com/fmidev/fmi_trollflow2_plugins.git@v2025-06-05
     - posttroll==1.12.1
-    - pytroll-schedule==0.7.1
+    - pytroll-schedule==0.7.3
     - trollflow2==0.16.0
   - psycopg
   - pykdtree=1.4.1
   - pyorbital=1.9.2
-  - pyresample=1.33.0
+  - pyresample=1.34.2
   - pyspectral=0.13.5
   - python=3.12
   - pyyaml
@@ -46,7 +46,7 @@ dependencies:
   - requests>=2.32.0
   - rioxarray
   - s3fs=>2025.3.0
-  - satpy=0.55.0
+  - satpy=0.56.0
   - scipy
   - scp
   - shapely
