@@ -39,7 +39,7 @@ dependencies:
   - pyorbital=1.10.2
   - pyresample=1.34.2
   - pyspectral=0.13.5
-  - python=3.12
+  - python=3.13
   - pyyaml
   - pyzmq
   - rasterio
