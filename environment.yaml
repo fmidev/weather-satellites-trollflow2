@@ -33,7 +33,7 @@ dependencies:
     - git+https://github.com/fmidev/fmi_trollflow2_plugins.git@v2025-09-22
     - posttroll==1.12.1
     - pytroll-schedule==0.7.5
-    - trollflow2==0.17.0
+    - trollflow2==0.17.1
   - psycopg
   - pykdtree=1.4.3
   - pyorbital=1.10.2
