@@ -13,6 +13,7 @@ RUN mkdir /opt/conda && \
     curl -Ls https://micro.mamba.pm/api/micromamba/linux-64/latest | tar -xvj -C /usr/bin/ --strip-components=1 bin/micromamba && \
     micromamba shell init -s bash && \
     mv /root/.bashrc /opt/conda/.bashrc && \
+    unset BASH_VERSION && \
     source /opt/conda/.bashrc && \
     micromamba activate && \
     micromamba install -c conda-forge --no-deps dask && \
