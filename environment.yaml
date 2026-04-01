@@ -17,7 +17,7 @@ dependencies:
   - fsspec
   - gdal
   - git
-  - h5netcdf
+  - h5netcdf<1.7.0
   - h5py
   - hdf5plugin
   - jinja2>=3.1.6
