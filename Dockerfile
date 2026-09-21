@@ -17,9 +17,11 @@ RUN mkdir /opt/conda && \
     source /opt/conda/.bashrc && \
     micromamba activate && \
     micromamba install -c conda-forge --no-deps dask && \
+    micromamba install -c conda-forge pip git && \
+    pip install --no-dependencies git+https://github.com/pytroll/pyspectral.git && \
     micromamba install -y -f /tmp/environment.yaml && \
     rm /tmp/environment.yaml && \
-    pip install --no-dependencies trollmoves==0.18.0 && \
+    pip install --no-dependencies trollmoves==0.19.0 && \
     pip cache purge && \
     # Remove git with all its dependencies
     micromamba remove -y git && \

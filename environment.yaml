@@ -31,15 +31,16 @@ dependencies:
   - pip
   - pip:
     - git+https://github.com/fmidev/fmi_trollflow2_plugins.git@v2026-03-12
-    - posttroll==1.15.0
+    - posttroll==1.16.0
+    - pyorbital==1.13.0
     - pytroll-schedule==0.7.5
-    - trollflow2==0.18.0
+    - trollflow2==0.19.0
   - psycopg
   - pykdtree=1.4.3
-  - pyorbital=1.12.1
+  - pyogrio
   - pyresample=1.35.0
-  - pyspectral=0.14.3
-  - python=3.13
+  #- pyspectral=0.14.3
+  - python=3.14
   - pyyaml
   - pyzmq
   - rasterio
@@ -52,5 +53,5 @@ dependencies:
   - shapely
   - toolz
   - trollimage=1.28.0
-  - trollsift=1.0.0
+  - trollsift=1.0.1
   - zeromq
