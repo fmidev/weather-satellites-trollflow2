@@ -15,7 +15,7 @@ dependencies:
   - dpath
   - fasteners
   - fsspec
-  - gdal
+  - gdal=3.12.3
   - git
   - h5netcdf<1.7.0
   - h5py
@@ -43,7 +43,7 @@ dependencies:
   - python=3.14
   - pyyaml
   - pyzmq
-  - rasterio
+  - rasterio=1.5.0
   - requests>=2.32.5
   - rioxarray
   - s3fs>=2026.4.0
