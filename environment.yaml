@@ -41,6 +41,7 @@ dependencies:
   - pyresample=1.35.0
   #- pyspectral=0.14.3
   - python=3.14
+  - python-geotiepoints
   - pyyaml
   - pyzmq
   - rasterio=1.5.0
