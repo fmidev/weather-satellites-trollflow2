@@ -28,7 +28,7 @@ dependencies:
   - numpy
   - paramiko
   - partd
-  - pip
+  - pip>=26.2.2
   - pip:
     - git+https://github.com/fmidev/fmi_trollflow2_plugins.git@v2026-03-12
     - posttroll==1.16.0
