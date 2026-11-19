@@ -39,7 +39,7 @@ dependencies:
   - pykdtree=1.4.3
   - pyogrio
   - pyresample=1.35.0
-  #- pyspectral=0.14.3
+  - pyspectral=0.14.4
   - python=3.14
   - python-geotiepoints
   - pyyaml
